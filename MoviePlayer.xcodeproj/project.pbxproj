@@ -15,6 +15,8 @@
 		013EAE1C24C9D23B00583BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013EAE1A24C9D23B00583BB8 /* LaunchScreen.storyboard */; };
 		013EAE2724C9D23B00583BB8 /* MoviePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013EAE2624C9D23B00583BB8 /* MoviePlayerTests.swift */; };
 		013EAE3224C9D23B00583BB8 /* MoviePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013EAE3124C9D23B00583BB8 /* MoviePlayerUITests.swift */; };
+		01CA9CE924CDA42E00D155D1 /* 고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01CA9CE724CDA42E00D155D1 /* 고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그.mp4 */; };
+		01CA9CEA24CDA42E00D155D1 /* 다운로드.png in Resources */ = {isa = PBXBuildFile; fileRef = 01CA9CE824CDA42E00D155D1 /* 다운로드.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		013EAE2D24C9D23B00583BB8 /* MoviePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013EAE3124C9D23B00583BB8 /* MoviePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITests.swift; sourceTree = "<group>"; };
 		013EAE3324C9D23B00583BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CA9CE724CDA42E00D155D1 /* 고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그.mp4"; sourceTree = "<group>"; };
+		01CA9CE824CDA42E00D155D1 /* 다운로드.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "다운로드.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		013EAE0E24C9D23900583BB8 /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				01CA9CE624CDA41A00D155D1 /* Resources */,
 				013EAE0F24C9D23900583BB8 /* AppDelegate.swift */,
 				013EAE1124C9D23900583BB8 /* SceneDelegate.swift */,
 				013EAE1324C9D23900583BB8 /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				013EAE3324C9D23B00583BB8 /* Info.plist */,
 			);
 			path = MoviePlayerUITests;
+			sourceTree = "<group>";
+		};
+		01CA9CE624CDA41A00D155D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01CA9CE724CDA42E00D155D1 /* 고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그.mp4 */,
+				01CA9CE824CDA42E00D155D1 /* 다운로드.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +248,9 @@
 			files = (
 				013EAE1C24C9D23B00583BB8 /* LaunchScreen.storyboard in Resources */,
 				013EAE1924C9D23B00583BB8 /* Assets.xcassets in Resources */,
+				01CA9CE924CDA42E00D155D1 /* 고기짬뽕라면 1인분 만들기 (feat.맛남의광장) ㅣ 백종원의 쿠킹로그.mp4 in Resources */,
 				013EAE1724C9D23900583BB8 /* Main.storyboard in Resources */,
+				01CA9CEA24CDA42E00D155D1 /* 다운로드.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
