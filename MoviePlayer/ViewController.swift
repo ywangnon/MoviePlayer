@@ -11,6 +11,7 @@ import AVKit
 import WebKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var extenalVideoView: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,10 +28,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnPlayExternalMovie(_ sender: UIButton) {
-        // 외부에 링크된 주소를 URL 형식으로 변경
-//        let url = URL(string: "https://www.youtube.com/watch?v=2sUjx8PE_vg")!
-        
-        self.playYoutube()
+        let webViewConfiguration = WKWebViewConfiguration()
+        webViewConfiguration.allowsInlineMediaPlayback = true
+        let wkWebView = WKWebView(frame: self.extenalVideoView.frame, configuration: webViewConfiguration)
+        self.view.addSubview(wkWebView)
+        let myURL = URL(string: "https://www.youtube.com/watch?v=2sUjx8PE_vg")
+        let youtubeRequest = URLRequest(url: myURL!)
+        wkWebView.load(youtubeRequest)
     }
     
     private func playVideo(url: URL) {
@@ -47,10 +51,6 @@ class ViewController: UIViewController {
         }
     }
     
-    private func playYoutube() {
-        
-    }
-
 }
 
 /**
